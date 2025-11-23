@@ -1,5 +1,6 @@
 package com.tuite.parking.repo;
 
+import com.tuite.parking.domain.ParkingLot;
 import org.springframework.stereotype.Repository;
 
 @Repository
@@ -10,7 +11,7 @@ public class ParkingLotRepository {
         this.store = store;
     }
 
-    public InMemoryStore getStore() {
-        return store;
+    public ParkingLot get(){
+        return store.getParkinglot();
     }
 }

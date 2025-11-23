@@ -1,0 +1,6 @@
+package com.tuite.parking.error;
+
+public class BadRequestException extends Exception {
+    public BadRequestException(String s) {
+    }
+}
