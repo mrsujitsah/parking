@@ -1,4 +1,4 @@
-package com.tuite.parking.utils;
+package com.tuite.parking.common;
 
 public enum VehicleType {
     MOTORCYCLE,
